@@ -14,6 +14,7 @@
 		668852441B5A58D1006FA4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668852421B5A58D1006FA4F3 /* LaunchScreen.storyboard */; };
 		6688524F1B5A58D1006FA4F3 /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688524E1B5A58D1006FA4F3 /* MapTests.swift */; };
 		6688525A1B5A58D1006FA4F3 /* MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668852591B5A58D1006FA4F3 /* MapUITests.swift */; };
+		668852681B5A63B4006FA4F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668852671B5A63B4006FA4F3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		668852551B5A58D1006FA4F3 /* MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668852591B5A58D1006FA4F3 /* MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUITests.swift; sourceTree = "<group>"; };
 		6688525B1B5A58D1006FA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668852671B5A63B4006FA4F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668852681B5A63B4006FA4F3 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		6688522D1B5A58D1006FA4F3 = {
 			isa = PBXGroup;
 			children = (
+				668852671B5A63B4006FA4F3 /* CoreLocation.framework */,
 				668852381B5A58D1006FA4F3 /* Map */,
 				6688524D1B5A58D1006FA4F3 /* MapTests */,
 				668852581B5A58D1006FA4F3 /* MapUITests */,
